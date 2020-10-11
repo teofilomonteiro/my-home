@@ -31,11 +31,13 @@ i18n
             en: {
                 welcome: {
                     hello: "Hello strange & welcome to my page!",
+                    language: "Select language",
                 }
             },
             pt: {
                 welcome: {
                     hello: "Olá forasteiro! Sê bem-vindo a minha página!",
+                    language: "Seleciona a língua",
                 }
             }
         },

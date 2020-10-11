@@ -32,7 +32,7 @@ function App() {
   return (
     <div className="App">
       <div className="App-language">
-        <div>Select Language</div>
+        <div>{t('language')}</div>
         <select value={value} onChange={handleSelect}>
           <option value="en">en</option>
           <option value="pt">pt</option>
