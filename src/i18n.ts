@@ -20,7 +20,7 @@ i18n
     // for all options read: https://www.i18next.com/overview/configuration-options
     .init({
         fallbackLng: 'en',
-        debug: true,
+        debug: false,
         react: {
             useSuspense: false
         },
@@ -31,11 +31,13 @@ i18n
             en: {
                 welcome: {
                     hello: "Hello strange & welcome to my page!",
+                    language: "Select language",
                 }
             },
             pt: {
                 welcome: {
                     hello: "Olá forasteiro! Sê bem-vindo a minha página!",
+                    language: "Seleciona a língua",
                 }
             }
         },
