@@ -1,0 +1,29 @@
+.App-language {
+    background-color: #282c34;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    min-width: 100%;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-language>* {
+    padding: 10px;
+}
+
+.App-language>a {
+    background-color: green;
+    color: white;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.App-language>a:hover {
+    background-color: #555;
+}
+
+.App-language>a:active {
+    background-color: black;
+}
